@@ -1,0 +1,89 @@
+@use "../styles" as styles;
+div[class^="overlay__card"] {
+    width: 100vw;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 70px;
+    p {
+        padding: 0 20px;
+        line-height: 1.7rem;
+    }
+}
+
+.overlay__card--gfx {
+    background-image: url("../../images/mobile/image-graphic-design.jpg");
+    h2,
+    p {
+        color: styles.$graphicDesign_text;
+    }
+}
+
+.overlay__card--photo {
+    background-image: url("../../images/mobile/image-photography.jpg");
+    h2,
+    p {
+        color: styles.$photography_text;
+    }
+}
+
+@media screen and (min-width:768px) {
+    #overlay {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+    }
+    div[class^="overlay__card"] {
+        width: 50vw;
+        height: 50vw;
+        display: block;
+        padding-bottom: 0;
+        h2 {
+            margin-top: 30vw;
+        }
+    }
+}
+
+.overlay__card--gfx {
+    background-image: url("../../images/desktop/image-graphic-design.jpg");
+}
+
+.overlay__card--photo {
+    background-image: url("../../images/desktop/image-photography.jpg");
+}
+
+@media screen and (min-width:1024px) {
+    div[class^="overlay__card"] {
+        padding: 0 60px;
+        h2 {
+            margin-top: 29vw;
+        }
+        p {
+            font-size: 1.1rem;
+            line-height: 1.8rem;
+        }
+    }
+}
+
+@media screen and (min-width:1440px) {
+    #overlay {
+        width: 1440px;
+    }
+    div[class^="overlay__card"] {
+        padding: 0 120px;
+        h2 {
+            margin-top: 35vw;
+            font-size: 2rem;
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 2rem;
+        }
+    }
+}

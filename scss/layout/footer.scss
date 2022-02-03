@@ -1,0 +1,43 @@
+@use "../styles.scss" as styles;
+footer {
+    background-color: styles.$footer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    svg {
+        margin-top: 70px;
+        fill: styles.$footer_text;
+    }
+    ul {
+        display: flex;
+        width: 100vw;
+        justify-content: space-around;
+        color: styles.$footer_text;
+        padding-left: 0;
+        margin-top: 60px;
+        li {
+            list-style: none;
+        }
+    }
+    .footer__socials {
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+        svg {
+            margin: 70px 0;
+            padding: 0 15px;
+            fill: styles.$footer_text;
+        }
+    }
+}
+
+@media screen and (min-width:768px) {
+    footer {
+        ul {
+            justify-content: center;
+            li {
+                padding: 0 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,60 @@
+    @use "../styles" as styles;
+    @mixin underline {
+        content: "";
+        float: left;
+        width: 100%;
+        height: 8px;
+        border-radius: 3px;
+        position: relative;
+        margin-top: -10px;
+        z-index: -1;
+    }
+    
+    #intro__card--transform,
+    #intro__card--standout {
+        a {
+            z-index: 2;
+        }
+    }
+    
+    #intro__card--transform {
+        a:hover:after {
+            @include underline();
+            background: styles.$underline_yellow;
+        }
+    }
+    
+    #intro__card--standout {
+        a:hover:after {
+            @include underline();
+            background: styles.$underline_red;
+        }
+    }
+    
+    @media screen and (min-width:768px) {
+        #mobileMenu {
+            ul {
+                li {
+                    h3:hover {
+                        color: styles.$white;
+                        background-color: rgba(255, 255, 255, 30%);
+                        border: 2px solid rgba(255, 255, 255, 5%);
+                    }
+                }
+            }
+        }
+    }
+    
+    footer {
+        ul {
+            li:hover {
+                color: styles.$white;
+            }
+        }
+    }
+    
+    .footer__socials {
+        svg:hover {
+            fill: styles.$white;
+        }
+    }

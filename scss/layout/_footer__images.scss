@@ -1,0 +1,28 @@
+#footer__images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    .footer__images-img {
+        width: 50vw;
+        height: auto;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    #footer__images {
+        flex-wrap: nowrap;
+        width: 100vw;
+        .footer__images-img {
+            width: 25vw;
+            height: auto;
+        }
+    }
+}
+
+@media screen and (min-width:1440px) {
+    #footer__images {
+        .footer__images-img {
+            width: calc(1440px/4);
+        }
+    }
+}

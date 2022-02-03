@@ -1,0 +1,21 @@
+// ## Layout
+// The designs were created to the following widths:
+// - Mobile: 375px
+// - Desktop: 1440px
+@use "_styles.scss";
+// LAYOUTS
+@use "layout/wrapper";
+@use "layout/jumbo.scss";
+@use "layout/intro.scss";
+@use "layout/overlay.scss";
+@use "layout/testimonials.scss";
+@use "layout/footer__images";
+@use "layout/footer.scss";
+@use "layout/nav";
+// MODULES
+@use "modules/testimonial__card.scss";
+@use "modules/intro__card.scss";
+@use "modules/jumbo__title";
+@use "modules/mobileMenu";
+// STATES
+@use "states/hover";

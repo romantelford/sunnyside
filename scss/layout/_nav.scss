@@ -1,0 +1,11 @@
+@use "../styles" as styles;
+nav {
+    padding: 0 20px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    background: styles.$nav;
+    svg {
+        overflow: initial;
+    }
+}

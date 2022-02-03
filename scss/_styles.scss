@@ -1,0 +1,64 @@
+// ------------------------------------------ Colors
+// ------------------------------------------ Primary
+$underline_red: hsl(7, 99%, 70%);
+$underline_yellow: hsl(51, 100%, 49%);
+$graphicDesign_text: hsl(167, 40%, 24%);
+$photography_text: hsl(198, 62%, 26%);
+$footer_text: hsl(168, 34%, 41%);
+$footer: #90d4c5;
+$nav: #3dbeff;
+// ------------------------------------------ Neutral
+$grey_blue_400: hsl(212, 27%, 19%);
+$grey_blue_300: hsl(213, 9%, 39%);
+$grey_blue_200: hsl(232, 10%, 55%);
+$grey_blue_100: hsl(210, 4%, 67%);
+$grey_blue_50: #fffbf8;
+$white: hsl(0, 0%, 100%);
+// ------------------------------------------ Typography 
+body {
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    background-color: $white;
+}
+
+#wrapper {
+    background-color: $grey_blue_50;
+}
+
+p {
+    color: $grey_blue_300;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 3rem;
+    color: $white;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    color: $grey_blue_400;
+}
+
+h3 {
+    font-family: 'Fraunces', serif;
+    color: $grey_blue_400;
+}
+
+button {
+    border: none;
+    background-color: none;
+}
+
+@media screen and (min-width:768px) {
+    h2 {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+    p {
+        font-size: .8rem;
+        line-height: 1.4rem;
+    }
+}

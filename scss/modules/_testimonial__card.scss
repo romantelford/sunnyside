@@ -1,0 +1,62 @@
+@use "../styles" as styles;
+#testimonials {
+    #testimonials--heading {
+        padding: 50px 0;
+        font-size: 1rem;
+        letter-spacing: 4px;
+        color: styles.$grey_blue_100;
+        text-transform: uppercase;
+    }
+}
+
+.testimonials__card {
+    text-align: center;
+    padding: 0 9vw;
+    line-height: 1.6rem;
+    img {
+        margin-top: 30px;
+        height: 80px;
+        border-radius: 50%;
+    }
+}
+
+.testimonials__card--name {
+    margin-bottom: 80px;
+    h3 {
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+    p {
+        color: styles.$grey_blue_100;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .testimonials__card {
+        padding: 0 3vw;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .testimonials__card {
+        padding: 0 6vw;
+        p {
+            font-size: 1rem;
+            line-height: 1.8rem;
+        }
+    }
+}
+
+@media screen and (min-width:1440px) {
+    #testimonials #testimonials--heading {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (min-width:1920px) {
+    .testimonials__card {
+        padding: 0 3vw;
+    }
+}
