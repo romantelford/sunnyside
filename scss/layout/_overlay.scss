@@ -18,7 +18,7 @@ div[class^="overlay__card"] {
 }
 
 .overlay__card--gfx {
-    background-image: url("../../images/mobile/image-graphic-design.jpg");
+    background-image: url("../images/mobile/image-graphic-design.jpg");
     h2,
     p {
         color: styles.$graphicDesign_text;
@@ -26,7 +26,7 @@ div[class^="overlay__card"] {
 }
 
 .overlay__card--photo {
-    background-image: url("../../images/mobile/image-photography.jpg");
+    background-image: url("../images/mobile/image-photography.jpg");
     h2,
     p {
         color: styles.$photography_text;
@@ -51,11 +51,11 @@ div[class^="overlay__card"] {
 }
 
 .overlay__card--gfx {
-    background-image: url("../../images/desktop/image-graphic-design.jpg");
+    background-image: url("../images/desktop/image-graphic-design.jpg");
 }
 
 .overlay__card--photo {
-    background-image: url("../../images/desktop/image-photography.jpg");
+    background-image: url("../images/desktop/image-photography.jpg");
 }
 
 @media screen and (min-width:1024px) {
