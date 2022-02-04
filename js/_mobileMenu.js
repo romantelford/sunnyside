@@ -1,5 +1,5 @@
 function mobileMenu() {
-    var menu = ddocument.getElementById("mobileMenu");
+    var menu = document.getElementById("mobileMenu");
     if (menu.style.display === "flex") {
         menu.style.display = "none";
     } else {
