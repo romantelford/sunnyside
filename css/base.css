@@ -54,7 +54,7 @@ button {
 #jumbo {
   width: 100vw;
   height: 600px;
-  background-image: url("../../images/mobile/image-header.jpg");
+  background-image: url("../images/mobile/image-header.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -64,7 +64,7 @@ button {
 
 @media screen and (min-width: 768px) {
   #jumbo {
-    background-image: url("../../images/desktop/image-header.jpg");
+    background-image: url("../images/desktop/image-header.jpg");
   }
 }
 @media screen and (min-width: 1440px) {
@@ -82,7 +82,7 @@ button {
 }
 
 #intro__card--transform--img {
-  background-image: url("../../images/mobile/image-transform.jpg");
+  background-image: url("../images/mobile/image-transform.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -96,7 +96,7 @@ button {
 }
 
 #intro__card--standout--img {
-  background-image: url("../../images/mobile/image-stand-out.jpg");
+  background-image: url("../images/mobile/image-stand-out.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -155,7 +155,7 @@ div[class^=overlay__card] p {
 }
 
 .overlay__card--gfx {
-  background-image: url("../../images/mobile/image-graphic-design.jpg");
+  background-image: url("../images/mobile/image-graphic-design.jpg");
 }
 .overlay__card--gfx h2,
 .overlay__card--gfx p {
@@ -163,7 +163,7 @@ div[class^=overlay__card] p {
 }
 
 .overlay__card--photo {
-  background-image: url("../../images/mobile/image-photography.jpg");
+  background-image: url("../images/mobile/image-photography.jpg");
 }
 .overlay__card--photo h2,
 .overlay__card--photo p {
@@ -188,11 +188,11 @@ div[class^=overlay__card] p {
   }
 }
 .overlay__card--gfx {
-  background-image: url("../../images/desktop/image-graphic-design.jpg");
+  background-image: url("../images/desktop/image-graphic-design.jpg");
 }
 
 .overlay__card--photo {
-  background-image: url("../../images/desktop/image-photography.jpg");
+  background-image: url("../images/desktop/image-photography.jpg");
 }
 
 @media screen and (min-width: 1024px) {
