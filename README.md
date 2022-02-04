@@ -11,7 +11,6 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -25,8 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/romantelford/sunnyside)
-- Live Site URL: [Add live site URL here](https://romantelford.github.io/sunnyside/)
+- Live Site URL: [https://romantelford.github.io/sunnyside/](https://romantelford.github.io/sunnyside/)
 
 ## My process
 
